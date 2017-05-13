@@ -10,24 +10,22 @@ body{
 	margin-right: auto;
 	background: #777;
 	content: #ebebeb;
-	font-family:Arial,helvetica Neue, sans-serif;
+	/* content??? and helvetica neue not working*/
+	font-family:Arial,helvetica,Helvetica Neue, sans-serif;
 	font-size: 18px;
-
-}
+	}
 
 /* format for header*/
 header{
-	background-color: #11233b;
-	color:white;
+	background-color: #ebebeb;
 	padding: 10px 20px;
 	text-align: center;
 	height:100px;
-}
+	}
 
 
 nav{
-	background-color:#20416c;
-	color:white;
+	background-color:#ebebeb;
 		/* padding is area around the content*/
 	padding: 5px;
 	/* margin is outside of boarder*/
@@ -38,10 +36,9 @@ nav{
 
 /* for section part only*/
 section {
-	background-color:#7FFFD4 ;
+	background-color: #ebebeb;
 	margin-top: 20px;
 	margin-bottom:20px;
-	margin-right:15px;
 	padding:10px;
 	height:390px;
 	width: 495px;
@@ -49,7 +46,7 @@ section {
 }
 
 	article{
-		background-color:#F0FFF0;
+		background-color:#777;
 		margin-top:30px;
 		margin-bottom: 20px;
 		height:270px;
@@ -61,11 +58,11 @@ section {
 		.clear{
 			height:70px;
 			margin-top: 15px;
-			background-color: #6495ED;
+			background-color: #ebebeb;
 			}
 
 aside{
-	background-color:#00FA9A;
+	background-color: #ebebeb;
 	 width: 400px;
 	 height: 390px;
 	 float:right;
@@ -77,12 +74,10 @@ aside{
 footer{
 /* that will clear the float to left and right*/
 	clear:both;
-	color:white;
-	background-color:#6495ED; 
-	padding: 5px 20px;
+	background-color:#ebebeb; 
+	padding: 20px;
 	height: 70px
-	
-}
+	}
 
 
 
