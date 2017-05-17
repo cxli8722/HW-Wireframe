@@ -55,7 +55,7 @@ section {
 	 
 
 /*class to define header within the article*/
-		.clear{
+		.head{
 			height:70px;
 			margin-top: 15px;
 			background-color: #ebebeb;
@@ -73,11 +73,15 @@ aside{
 
 footer{
 /* that will clear the float to left and right*/
-	clear:both;
+	
 	background-color:#ebebeb; 
 	padding: 20px;
 	height: 70px
 	}
+
+.clear {
+	clear: both;
+}
 
 
 
